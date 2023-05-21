@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        tools:context=".LinearLayoutActivity"
+        android:layout_weight="1">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/to_hint"
+            android:inputType="text"
+            android:autofillHints="emailAddress" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:hint="@string/message_hint"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:gravity="top"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sendButtonText"
+            android:layout_gravity="end"/>
+    </LinearLayout>
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        tools:context=".LinearLayoutActivity"
+        android:layout_weight="1">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/to_hint"
+            android:inputType="text"
+            android:autofillHints="emailAddress" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:hint="@string/message_hint"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:importantForAutofill="no"
+            android:inputType="text" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sendButtonText"
+            android:layout_gravity="bottom"/>
+
+    </LinearLayout>
+</LinearLayout>
