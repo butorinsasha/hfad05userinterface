@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">HFAD05UserInterface</string>
-    <string name="buttonText">Click me</string>
+    <string name="buttonText">Send</string>
     <string name="button_above">Below</string>
     <string name="sendButtonText">Send</string>
     <string name="to_hint">To</string>
     <string name="message_hint">Message</string>
     <string name="textViewText">This is a text view</string>
-    <string name="editTextHint">Please type here</string>
+    <string name="editTextHint">Enter email here</string>
 </resources>
