@@ -7,4 +7,6 @@
     <string name="message_hint">Message</string>
     <string name="textViewText">This is a text view</string>
     <string name="editTextHint">Enter email here</string>
+    <string name="toggle_button_text_on">On</string>
+    <string name="toggle_button_text_off">Off</string>
 </resources>
