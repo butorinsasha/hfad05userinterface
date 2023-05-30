@@ -1,10 +1,11 @@
 package local.hfad.hfad05userinterface;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.Switch;
 import android.widget.Toast;
 import android.widget.ToggleButton;
@@ -83,5 +84,15 @@ public class GridLayoutActivity extends AppCompatActivity {
                     Toast.LENGTH_SHORT
             ).show();
         }
+    }
+
+
+    public void onRadioButtonClicked(View view) {
+        RadioGroup radioGroup = (RadioGroup) findViewById(R.id.radio_group);
+        int id = radioGroup.getCheckedRadioButtonId();
+        Toast.makeText(this,
+                        ((RadioButton) findViewById(id)).getText() + " with id = " + id,
+                        Toast.LENGTH_SHORT)
+                .show();
     }
 }

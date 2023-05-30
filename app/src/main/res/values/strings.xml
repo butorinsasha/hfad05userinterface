@@ -9,4 +9,6 @@
     <string name="editTextHint">Enter email here</string>
     <string name="toggle_button_text_on">On</string>
     <string name="toggle_button_text_off">Off</string>
+    <string name="astronauts">Astronauts</string>
+    <string name="cavemen">Cavemen</string>
 </resources>
