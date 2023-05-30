@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
@@ -35,7 +36,15 @@ public class GridLayoutActivity extends AppCompatActivity {
 //                Log.i(this.getClass().getName(), "view.getId()=" + view.getId());
 //            }
 //        });
+    }
 
+    @Override
+    protected void onStart() {
+        super.onStart();
+        ImageView photo = (ImageView) findViewById(R.id.image_view_cappuccino);
+        String description = "https://dogriffiths.github.io/HeadFirstAndroid/#/resources";
+        photo.setImageResource(R.drawable.cappuccino);
+        photo.setContentDescription(description);
     }
 
     public void onClickSendMessage(View view) {

@@ -11,4 +11,6 @@
     <string name="toggle_button_text_off">Off</string>
     <string name="astronauts">Astronauts</string>
     <string name="cavemen">Cavemen</string>
+    <string name="starbuzz_logo">https://tinyurl.com/HeadFirstAndroid</string>
+    <string name="click_me_button_text">Click me</string>
 </resources>
