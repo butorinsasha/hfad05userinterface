@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.Spinner;
 import android.widget.Switch;
 import android.widget.Toast;
 import android.widget.ToggleButton;
@@ -38,18 +39,16 @@ public class GridLayoutActivity extends AppCompatActivity {
     }
 
     public void onClickSendMessage(View view) {
-//        Toast.makeText(
-//                this,
-//                "button.isFocused()=" + ((Button) view).isFocused(),
-//                Toast.LENGTH_SHORT
-//        ).show();
-
-        EditText emailEditText = findViewById(R.id.email_edit_text);
+        EditText emailEditText = findViewById(R.id.message_edit_text);
         Toast.makeText(
                 this,
                 "emailEditText.isFocused()=" + emailEditText.isFocused(),
                 Toast.LENGTH_SHORT
         ).show();
+
+        Spinner spinner = (Spinner) findViewById(R.id.spinner);
+        emailEditText.setText(String.valueOf(spinner.getSelectedItem()));
+//        emailEditText.setText(spinner.getSelectedItem().toString()); // also works
     }
 
     public void onToggleButtonClicked(View view) {

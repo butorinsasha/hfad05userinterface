@@ -30,6 +30,7 @@
 
 <!--row=1-->
     <EditText
+        android:id="@+id/message_edit_text"
         android:inputType="text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -88,6 +89,12 @@
 
     </RadioGroup>
 
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/spinner_values"
+        />
 
 <!--row=4-->
 
@@ -97,7 +104,7 @@
         android:layout_height="wrap_content"
         android:text="@string/buttonText"
         android:layout_column="0"
-        android:layout_row="3"
+        android:layout_row="4"
         android:layout_columnSpan="2"
         android:layout_gravity="center_horizontal"
         android:onClick="onClickSendMessage"
