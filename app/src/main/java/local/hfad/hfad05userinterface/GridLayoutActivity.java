@@ -107,7 +107,7 @@ public class GridLayoutActivity extends AppCompatActivity {
 
     public void onImageButtonClicked(View view) {
         Toast.makeText(this, "is onImageButtonClicked", Toast.LENGTH_SHORT).show();
-        Intent intent = new Intent(this, SecondLinearLayoutActivity.class);
+        Intent intent = new Intent(this, LinearLayoutInsideScrollViewActivity.class);
         startActivity(intent);
     }
 }
