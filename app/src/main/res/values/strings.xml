@@ -12,5 +12,7 @@
     <string name="astronauts">Astronauts</string>
     <string name="cavemen">Cavemen</string>
     <string name="starbuzz_logo">https://tinyurl.com/HeadFirstAndroid</string>
-    <string name="click_me_button_text">Click me</string>
+    <string name="tea_button_text">Tea</string>
+    <string name="temperature_text">Temperature</string>
+    <string name="propose_tea_text">Thanks for choosing our blend tea. How do you want it serving</string>
 </resources>
