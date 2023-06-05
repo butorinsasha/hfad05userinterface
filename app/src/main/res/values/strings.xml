@@ -14,5 +14,10 @@
     <string name="starbuzz_logo">https://tinyurl.com/HeadFirstAndroid</string>
     <string name="tea_button_text">Tea</string>
     <string name="temperature_text">Temperature</string>
-    <string name="propose_tea_text">Thanks for choosing our blend tea. How do you want it serving</string>
+    <string name="propose_tea_text">Thanks for choosing our blend tea. How do you want it serving?</string>
+    <string name="milk_text">Milk</string>
+    <string name="sugar_text">Sugar</string>
+    <string name="lemon_text">Lemon</string>
+    <string name="temperature_hot_toggle_button">Hot</string>
+    <string name="temperature_cold_toggle_button">Cold</string>
 </resources>
